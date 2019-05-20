@@ -226,6 +226,9 @@ Because Office apps use Per Monitor awareness mode, your solution’s child wind
 
 ![Diagram showing child windows running in Per Monitor DPI aware context on Windows Fall Creators Update (1709).](./media/office-dpi-behavior-on-windows-fall-creators-update.png)
 
+>>![NOTE]
+>>If your solution doesn't handle DPI changes, users should upgrade to the latest version of Windows, or use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+
 ### Office DPI behavior on Windows April 2018 Update (1803)
 
 With Windows April 2018 (1803) update and later, The Office DPI hosting behavior uses mixed-mode DPI scaling for some scenarios. This allows System DPI Aware windows to be parented to Office windows set to Per Monitor DPI aware. This helps to ensure improved compatibility when the DPI changes when the windows are bitmap stretched. The windows might still be blurry from the bitmap stretching.

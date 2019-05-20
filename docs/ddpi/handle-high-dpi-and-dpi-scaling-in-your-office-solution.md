@@ -226,8 +226,8 @@ Because Office apps use Per Monitor awareness mode, your solution’s child wind
 
 ![Diagram showing child windows running in Per Monitor DPI aware context on Windows Fall Creators Update (1709).](./media/office-dpi-behavior-on-windows-fall-creators-update.png)
 
->>![NOTE]
->>If your solution doesn't handle DPI changes, users should upgrade to the latest version of Windows, or use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+> [!NOTE]
+> If your solution doesn't handle DPI changes, users should upgrade to the latest version of Windows, or use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 ### Office DPI behavior on Windows April 2018 Update (1803)
 
